@@ -13,13 +13,13 @@ The goal of this project is to create a realistic simulation of multiple AMRs op
 - Task assignment and scheduling
 - Performance metrics and analysis
 
-## Getting Started
+<!-- ## Getting Started
 
 To get started with the project, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/amr-simulation.git
+    git clone https://github.com/alimajidi62/AMRSIM.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -32,8 +32,8 @@ To get started with the project, follow these steps:
 4. Run the simulation:
     ```sh
     npm start
-    ```
-
+    ``` -->
+<!-- 
 ## Contributing
 
 We welcome contributions to the project! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
@@ -44,6 +44,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or inquiries, please contact [yourname@example.com](mailto:yourname@example.com).
+For any questions or inquiries, please contact [AliMajidi](mailto:yourname@example.com).
 
-Thank you for your interest in the AMR Simulation Project!
+Thank you for your interest in the AMR Simulation Project! -->
