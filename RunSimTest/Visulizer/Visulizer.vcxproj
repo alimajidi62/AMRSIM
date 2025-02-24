@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{12f6aee1-c962-41e8-8674-3e0e899394b7}</ProjectGuid>
-    <RootNamespace>RunSimTest</RootNamespace>
+    <ProjectGuid>{65d26b73-c0ee-4e94-bf60-a160f97374eb}</ProjectGuid>
+    <RootNamespace>Visulizer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Vehicle</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -130,11 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AMRvehicle.cpp" />
-    <ClCompile Include="RunSimTest.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AMRvehicle.h" />
+    <ClCompile Include="Visulizer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
