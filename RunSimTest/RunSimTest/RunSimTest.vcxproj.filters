@@ -24,12 +24,18 @@
     <ClCompile Include="PathPlanning.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MotorSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AMRvehicle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PathPlanning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorSim.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

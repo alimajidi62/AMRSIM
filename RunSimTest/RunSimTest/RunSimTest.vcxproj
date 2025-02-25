@@ -131,11 +131,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AMRvehicle.cpp" />
+    <ClCompile Include="MotorSim.cpp" />
     <ClCompile Include="PathPlanning.cpp" />
     <ClCompile Include="RunSimTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AMRvehicle.h" />
+    <ClInclude Include="MotorSim.h" />
     <ClInclude Include="PathPlanning.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
