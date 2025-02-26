@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <format>
 using namespace std;
 class MotorSim {
 private:
@@ -30,7 +31,7 @@ public:
     }
 
     std::string getStatus() const {
-        return "Current Speed: " + to_string(currentSpeed) + " m/s, Max Speed: " + std::to_string(maxSpeed) + " m/s";;
+        return "Current Speed: " + std::format("{:.2f}",currentSpeed) + " m/s, Max Speed: " + format("{:.2f}",maxSpeed) + " m/s";;
     }
 };
 
