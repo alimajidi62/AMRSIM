@@ -103,6 +103,8 @@ Index of this file:
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 
+#include <iostream>
+
 #include "imgui.h"
 #ifndef IMGUI_DISABLE
 
@@ -233,7 +235,7 @@ static void ShowDemoWindowPopups();
 static void ShowDemoWindowTables();
 static void ShowDemoWindowColumns();
 static void ShowDemoWindowInputs();
-
+void Myfunction();
 //-----------------------------------------------------------------------------
 // [SECTION] Helpers
 //-----------------------------------------------------------------------------
@@ -688,12 +690,20 @@ void ImGui::ShowDemoWindow(bool* p_open)
     ShowDemoWindowPopups();
     ShowDemoWindowTables();
     ShowDemoWindowInputs();
-
+    bool buttonclicked=ImGui::Button("new button");
+   
     // End of ShowDemoWindow()
     ImGui::PopItemWidth();
     ImGui::End();
+	if (buttonclicked) Myfunction();
 }
-
+void Myfunction()
+{
+    ImGui::Begin("second window");
+    ImGui::Text("this the second window");
+    ImGui::End();
+    std::cout << "this the function for the button" << std::endl;
+}
 //-----------------------------------------------------------------------------
 // [SECTION] ShowDemoWindowMenuBar()
 //-----------------------------------------------------------------------------
